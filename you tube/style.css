@@ -1,0 +1,33 @@
+*{
+    margin: 1px;
+    padding: 1 px;
+    background-color: black;
+    color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+}
+.top{
+    margin-top: 1%;
+    padding: 5 px;
+    margin-bottom: 10px solid;
+}
+aside{
+    width: 15%;
+}
+main{
+    display: flex;
+}
+.vedios{
+    margin: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+}
+.thum{
+    width: 15%;
+}
